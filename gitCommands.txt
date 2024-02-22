@@ -19,3 +19,10 @@ git rm --cached filename - removes from the staging area
 git commit -m "message" - adds message note and commits the repo, message should include action taken or to be taken
 git log - see who did what when and at what time, as well as any message
 git add . - adds everything in repo staging area
+
+Branches
+
+git branch filename - adds new branch
+git switch filename - switches to
+git merge filename - merges branch into master
+git branch -d filename - delete branch
