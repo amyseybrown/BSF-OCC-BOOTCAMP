@@ -29,3 +29,7 @@ git branch -a - list all branches
 git switch filename - moves to branch
 git merge filename - merges changes into the branch we are oneline
 git branch -d filename - deletes the branch you aren't on, if merged to master
+
+Remote Depository
+
+git remote add url - to remote repo
