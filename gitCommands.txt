@@ -1,0 +1,21 @@
+Configuration Commands
+
+git config
+git config --global user.name - adds username
+git config --global user.email - adds user email
+git config user.name/user.email - to call back the list(s)
+
+Creating Repos
+
+git init - creates repo in the directory you're in
+^c - clears previous command line
+ls -a - lists all files in the folder, including hidden
+
+Committing
+
+git status - checks status in correct place and running
+git add filename - to add to tracking, CASE SENSITIVE
+git rm --cached filename - removes from the staging area
+git commit -m "message" - adds message note and commits the repo, message should include action taken or to be taken
+git log - see who did what when and at what time, as well as any message
+git add . - adds everything in repo staging area
